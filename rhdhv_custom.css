@@ -1,0 +1,129 @@
+html, body {width: 100%;height: 100%;margin: 0;padding: 0;}
+
+.page-container {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway','Nunito', sans-serif;
+  }
+  
+  h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+    color: #0086A8;
+  }
+  
+  h1 {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    line-height: 10vh;
+    font-size: 6vh;
+    color: #ffffff;
+  }
+  
+  .page-header {
+    margin: 0;
+    padding: 0;
+    border-bottom: 0;
+    text-align: center;
+    display: block;
+    height:10vh;
+    background: url('https://www.royalhaskoningdhv.com/images/bg-footer.jpg');
+    min-height: 58px;
+  }
+  
+  #logo-im {
+    float: left;
+    height: 6vh;
+    margin: 2vh 5px;
+  }
+  
+  .page-content {
+    display: block;
+    height:90vh;
+  }
+  
+  #map {
+    height:90vh;
+    margin: 0;
+  }
+  
+  .folium-map {
+    padding: 0;
+  }
+  
+  /* Sidebar Control */
+  
+  .sidebar-addstyle {
+    /* reposition sidebar with content height and absolute position */
+    height: calc(90vh - 20px);
+    bottom: 10px;
+    top: auto;
+  }
+  
+  .sidebar-header-addstyle {
+    margin: -10px 0 0;
+    background-color: #a5c100;
+  }
+  
+  .sidebar-tabs-addstyle > ul > li.active {
+    background-color: #a5c100;
+  }
+  
+  /* Leaflet Layers Control */
+  
+  .leaflet-control-layers {
+    border-radius: none;
+    box-shadow: none;
+    color:#00567D;
+  }
+  
+  .leaflet-control-layers-expanded {
+    width: 100% !important;
+    padding: 0px;
+    background-color: transparent;
+    border: none !important;
+  }
+  
+  #layercontrol {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+  }
+  
+  .leaflet-control-layers .title {
+    font-size: 1.5em;
+    color: #a5c100;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .leaflet-control-layers-list > div > label > div > span {
+    padding-left: 5px;
+  }
+
+  .leaflet-control-measure {
+    background-color: #f8f8f8 !important;
+  }
+  
+  #layercontrol {
+    font-size: 1.5em;
+    color: #a5c100;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .add-control-title {
+    margin: 1em 0 0 0;
+    font-size: 1.2em;
+    color: #00567D;
+  }
